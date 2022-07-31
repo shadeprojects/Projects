@@ -19,13 +19,16 @@ int main(void)
         //For each space
         for (int k = n; k > i; k--)
         {
+            // Print spaces
             printf(" ");
         }
         //For each row
         for (int j = 1; j <= i; j++)
         {
+            //Print hashes
             printf("#");
         }
+        //Move to next line
         printf("\n");
     }
 
