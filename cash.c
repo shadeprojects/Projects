@@ -42,7 +42,7 @@ int get_cents(void)
     {
         cents = get_int("How many cents? ");
     }
-    while (cents < 0);wget https://cdn.cs50.net/2021/fall/psets/1/credit.zip
+    while (cents < 0);
     return cents;
 }
 
