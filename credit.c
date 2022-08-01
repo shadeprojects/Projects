@@ -9,7 +9,7 @@ int main(void)
     while(card_counter > 0)
     {
         card_counter = card_counter / 10;
-        count = count + 1;
+        count++;
     }
     if (count == 16)
     {
