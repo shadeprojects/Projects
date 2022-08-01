@@ -86,7 +86,7 @@ int main(void)
                 printf("INVALID\n");
             }
         }
-        else if (sixteenth_to_last_number == 4)
+        else if (first_number == 4)
         {
             if (checksum_addition % 10 == 0)
             {
