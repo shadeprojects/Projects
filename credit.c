@@ -87,9 +87,6 @@ int main(void)
     }
 
 
-    int last_number = card_number % 10;
-
-
 
         //int last_number = card_number % 10;
         //int second_to_last_number =  (card_number / 10) % 10;
