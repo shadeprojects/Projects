@@ -8,7 +8,7 @@ int main(void)
     long card_counter = card_number;
     while(card_counter > 0)
     {
-        card_counter = card_counter / 10;
+        card_counter /= 10;
         count++;
     }
     int last_number = card_number % 10;
